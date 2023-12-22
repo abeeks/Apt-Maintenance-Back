@@ -5,7 +5,7 @@ import com.abeeks.maintenancerequestserver.domain.core.exceptions.ResourceNotFou
 import com.abeeks.maintenancerequestserver.domain.core.maintenceRequest.models.MaintenceRequest;
 
 import java.util.List;
-
+//This interface lists the methods that are implemented in the MaintenanceRequestController
 public interface MaintenceRequestService {
     MaintenceRequest create(MaintenceRequest maintenceRequest) throws ResourceCreationException;
     MaintenceRequest getById(Long id) throws ResourceNotFoundException;

@@ -11,10 +11,10 @@ import lombok.RequiredArgsConstructor;
 
 import java.util.Date;
 
-@Entity
-@NoArgsConstructor
-@RequiredArgsConstructor
-@Data
+@Entity// JPA to save to the database
+@NoArgsConstructor// Non argument constructor
+@RequiredArgsConstructor// parameterized constructor
+@Data// getters and setters
 public class MaintenceRequest {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
